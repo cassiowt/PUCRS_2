@@ -1,0 +1,12 @@
+body{
+	font-size: 20px;
+	font-family: verdana;	
+}
+
+button {
+	border: 0;
+	padding: 35px 50px;
+	font-weight: bolder;
+	color: #C0C0C0;
+	font-size: 18px;
+}

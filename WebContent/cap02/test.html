@@ -1,0 +1,13 @@
+<!doctype html>
+<html ng-app>
+<head>
+	<script src="http://code.angularjs.org/1.0.7/angular.min.js"></script>
+	<script> function RestauranteController($scope) { $scope.cardapio = ['Refrigerante','Cerveja','Água']; } </script>
+</head>
+<body ng-controller="RestauranteController">
+	<ul>
+		<li ng-repeat="item in cardapio">{{item}}</li>
+	</ul>
+</body>
+</html>
+
