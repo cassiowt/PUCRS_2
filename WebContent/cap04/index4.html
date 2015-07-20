@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo for e array</title>
+
+</head>
+<body>
+	<h1>Exemplo for e array</h1>
+	<script type="text/javascript">
+		var paisesArray = new Array(2);
+
+		paisesArray[0] = "Brasil";
+		paisesArray[1] = "China";
+		paisesArray[2] = "Inglaterra";
+		paisesArray[3] = "Alemanha";
+		paisesArray[4] = "Canada";
+		paisesArray[5] = "França";
+		paisesArray[6] = "Estados Unidos";
+
+		//paisesArray[5] = "Brasil";
+
+		for (i = 0; i < paisesArray.length; i++) {
+			document.write("Posição " + i + " do array: " + paisesArray[i]);
+			document.write("<br>");
+		}
+		
+		var presidentesArray = {"Marechal Manuel Deodoro da Fonseca",
+								"Marechal Floriano Vieira Peixoto",
+								"Prudente José de Morais Barros",
+								"Manuel Ferraz de Campos Sales", 
+								"Francisco de Paula Rodrigues Alves"}
+		var y = presidentesArray.sort(); 
+		document.write(y);
+	</script>
+</body>
+</html>
