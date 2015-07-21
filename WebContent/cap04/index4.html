@@ -24,14 +24,28 @@
 			document.write("Posição " + i + " do array: " + paisesArray[i]);
 			document.write("<br>");
 		}
-		
-		var presidentesArray = ["Marechal Manuel Deodoro da Fonseca",
-								"Marechal Floriano Vieira Peixoto",
-								"Prudente José de Morais Barros",
-								"Manuel Ferraz de Campos Sales", 
-								"Francisco de Paula Rodrigues Alves"];
-		var y = presidentesArray.sort(); 
+
+		var presidentesArray = [ "Marechal Deodoro da Fonseca",
+				"Marechal Floriano Peixoto",
+				"Prudente de Morais ",
+				"Campos Sales",
+				"Rodrigues Alves" ];
+		var y = presidentesArray.sort();
 		document.write(y);
+		document.write("<br>");
+
+		presidentesArray.push("Afonso Penna");
+		document.write(presidentesArray);
+		document.write("<br>");
+		
+		presidentesArray.pop();
+		document.write(presidentesArray);
+		document.write("<br>");
+		
+		document.write(presidentesArray.join("<br>"));
+		
+		
 	</script>
+	<h3>typeof presidentesArray * imprime objeto</h3>
 </body>
 </html>
