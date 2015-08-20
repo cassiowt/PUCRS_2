@@ -4,9 +4,9 @@ body{
 }
 
 button {
-	border: 0;
+	border: 5;
 	padding: 35px 50px;
-	font-weight: bolder;
+	font-weight: bold;
 	color: #C0C0C0;
 	font-size: 18px;
 }
