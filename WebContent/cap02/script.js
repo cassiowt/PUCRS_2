@@ -1,6 +1,6 @@
 /* script JS separado*/
 function montaHTML () {
-	var text = " Meu Primeiro Codigo em JavaScript";
+	var text = " Meu Primeiro Codigo em JavaScript <br>";
     for (var i = 0; i < 5; i++)  {
 				text += ("<br> Meu Primeiro Codigo em JavaScript </br> ");
 			}
